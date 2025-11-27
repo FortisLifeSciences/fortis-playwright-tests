@@ -1,0 +1,42 @@
+{
+  "name": "fortis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:smoke": "npx playwright test --grep '@smoke'",
+    "test:wip": "npx playwright test --grep '@wip'",
+    "test:sanity": "npx playwright test --grep '@sanity'",
+    "test:plp": "npx playwright test --grep '@plp'",
+    "test:smoke:plp": "npx playwright test --grep '@smoke' --grep '@plp'",
+    "test:exclude:sanity": "npx playwright test --grep-invert '@sanity'",
+    "test:mobile": "npx playwright test --project=Mobile Chrome",
+    "test:desktop": "npx playwright test --project=Desktop Chrome",
+    "report": "npm run genreport && npm run reportserve",
+    "genreport": "allure generate ./allure-results --clean -o ./allure-report",
+    "reportserve": "allure serve ./allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/mailparser": "^3.4.6",
+    "@types/node": "^24.5.2",
+    "@types/smtp-server": "^3.5.12",
+    "allure-js-commons": "^3.4.1",
+    "allure-playwright": "^3.4.1",
+    "eslint": "^8.x",
+    "playwright-selfheal": "^1.0.9",
+    "self-healing-playwright": "^1.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "mailparser": "^3.7.4",
+    "playwright": "^1.55.1",
+    "smtp-server": "^3.14.0"
+  }
+}
