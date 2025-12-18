@@ -1,6 +1,11 @@
 import { test } from '../fixtures/baseFixtures';
 import { expect } from '@playwright/test';
 
+test.beforeEach(async ({ page }) => { // added to solve TC 2nd from failing
+  await page.context().clearCookies();
+  await page.context().clearPermissions();
+});
+
 test('@smoke - Login with invalid credentials shows error', async ({ pages }) => {
     await pages.loginPage.goto();
     await pages.loginPage.login('invalid@email.com', 'wrongpass');

@@ -46,15 +46,22 @@ export class HomePage {
     }
 
     async clickFirstProduct() {
-        // const productCards = this.page.locator('.productviewstructure .productviewlistItem');
-        const count = await this.locators.productCards.count();
+        const productCards = this.page.locator('.productviewstructure .productviewlistItem');
+        //Abhijit code changes 
+        await expect(productCards.first()).toBeVisible();
+        const count = await productCards.count();
+        expect(count).toBeGreaterThan(0);
+        //await productCards.first().click();
+        //Abhijit
+        //const count = await this.locators.productCards.count();
+
 
         let selectedProduct: Locator | null = null;
         let catalogueIdText: String | null = null;
 
 
         for (let i = 0; i < count; i++) {
-            const product = this.locators.productCards.nth(i);
+            const product = productCards.nth(i);
             await product.scrollIntoViewIfNeeded();
             const catalogIdLocator = product.locator('p').nth(2);
             const fullText = await catalogIdLocator.textContent();
@@ -66,7 +73,7 @@ export class HomePage {
                 break;
             }
         }
-        await this.page.waitForLoadState('networkidle', { timeout: 30000 });
+        await this.page.waitForLoadState('domcontentloaded');//await this.page.waitForLoadState('networkidle', { timeout: 30000 });
     }
 
     async hoverOnProfileIcon() {
@@ -96,9 +103,9 @@ export class HomePage {
         await expect(this.locators.searchViewGridorList).not.toHaveClass(/product-list-view/);
     }
 
-    async verifyNewTagAppearsOnAnyProduct() {
+    /*async verifyNewTagAppearsOnAnyProduct() {
         const count = await this.locators.productItems.count();
-        for (let i = 0; i < count; i++) {
+       for (let i = 0; i < count; i++) {
             const product = this.locators.productItems.nth(i);
             await product.scrollIntoViewIfNeeded();
 
@@ -109,9 +116,32 @@ export class HomePage {
             }
         }
         throw new Error('No product with "New" tag found');
+    }*/
+
+    // Added new method to resolve issue - Abhijit S 10-12-2025
+    async verifyNewTagAppearsOnAnyProduct() {
+    const count = await this.locators.productItems.count();
+
+    for (let i = 0; i < count; i++) {
+        const product = this.locators.productItems.nth(i);
+        await product.scrollIntoViewIfNeeded();
+
+        // Look for NewTag.svg INSIDE this product, not globally
+        const newTag = product.locator('div[style*="NewTag.svg"]');
+
+        if (await newTag.count() > 0) {
+            const style = await newTag.first().getAttribute('style');
+            expect(style).toContain('NewTag.svg');
+            return; // success
+        }
     }
 
+    throw new Error('No product with "New" tag found');
+}
+
+
     async verifyTagAppears(tagText: string) {
+        await this.locators.productItems.first().waitFor({ state: 'visible' }); // Abhijit
         const tagLocator = this.locators.productItems.getByText(tagText);
         const count = await tagLocator.count();
         expect(count, `Expected at least one product with tag: ${tagText}`).toBeGreaterThan(0);

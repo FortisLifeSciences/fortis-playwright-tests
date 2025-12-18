@@ -4,7 +4,8 @@ test('@smoke Verify Products mega menu', async ({ pages, pw }) => {
     await pages.homePage.goto();
     const productsMenu = pw.getByTestId('mega-menu-container').getByRole('heading', { name: 'Products' });
     await productsMenu.hover();
-    const productsSubmenu = pw.locator('[data-testid="mega-menu-products-section"] h3');
+    //const productsSubmenu = pw.locator('[data-testid="mega-menu-products-section"] h3');
+    const productsSubmenu = pw.locator('//h3[@class="MuiTypography-root MuiTypography-h3 mui-style-1t6jjjd"]'); // Added by to get locator value by xpath
     await pw.waitForTimeout(10000);
     await expect(productsSubmenu).toHaveText('Products');
     await expect(productsSubmenu).toBeVisible();

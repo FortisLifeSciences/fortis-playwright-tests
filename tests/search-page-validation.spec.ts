@@ -36,14 +36,16 @@ test('@sanity @plp Verify brand logo displays correctly to the right of the prod
     await pages.homePage.goto();
     await pages.homePage.searchAProduct("Bethyl");
 
-    // const productCards = pw.locator('.productviewstructure .productviewlistItem');
-    const productCardslocator = pages.homePage.locators.productCards;
-    const count = await productCardslocator.count();
-
+    const productCards = pw.locator('.productviewstructure .productviewlistItem');
+    //const productCardslocator = pages.homePage.locators.productCards; 
+    /* Replaced productCardsLocator from below implementation and updated it with productCards*/
+    console.log("Locator value:", productCards);
+   
+    const count = await productCards.count();
     let found = false;
 
     for (let i = 0; i < count; i++) {
-        const product = productCardslocator.nth(i);
+        const product = productCards.nth(i);
         await product.scrollIntoViewIfNeeded();
 
         // Verify brand logo
