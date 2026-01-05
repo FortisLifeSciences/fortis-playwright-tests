@@ -12,7 +12,7 @@ test('@smoke Verify Products mega menu', async ({ pages, pw }) => {
     await pw.getByRole('button', { name: 'Login' }).hover();
 });
 
-test.only('@smoke Verify Services mega menu', async ({ pages, pw }) => {
+test('@smoke Verify Services mega menu', async ({ pages, pw }) => {
     await pages.homePage.goto();
     //Code added to solve issue
     const servicesMenu = pw.getByTestId('mega-menu-container').getByRole('heading', { name: 'Services' });
