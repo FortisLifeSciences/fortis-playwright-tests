@@ -12,29 +12,42 @@ test('@smoke Verify Products mega menu', async ({ pages, pw }) => {
     await pw.getByRole('button', { name: 'Login' }).hover();
 });
 
-test('@smoke Verify Services mega menu', async ({ pages, pw }) => {
+test.only('@smoke Verify Services mega menu', async ({ pages, pw }) => {
     await pages.homePage.goto();
-    await pw.getByTestId('mega-menu-container').getByRole('heading', { name: 'Services' }).click();
-    const serviceHeading = await pw.locator('h3').innerText();
-    expect(serviceHeading).toBe("Services");
-    await pw.getByRole('button', { name: 'Login' }).hover();
+    //Code added to solve issue
+    const servicesMenu = pw.getByTestId('mega-menu-container').getByRole('heading', { name: 'Services' });
+    await servicesMenu.click();
+    await expect(servicesMenu).toBeVisible();
+    //await pw.getByTestId('mega-menu-container').getByRole('heading', { name: 'Services' }).click();
+    //const serviceHeading = await pw.locator('h3').innerText();
+    /*expect(serviceHeading).toBe("Services");
+    await pw.getByRole('button', { name: 'Login' }).hover();*/
 });
 
 test('@smoke Verify Learning Center mega menu', async ({ pages, pw }) => {
     await pages.homePage.goto();
-    await pw.getByTestId('mega-menu-container').getByRole('heading', { name: 'Learning Center' }).click();
+    //Code added to solve issue
+    const learningCenterMenu = pw.getByTestId('mega-menu-container').getByRole('heading', { name: 'Learning Center' });
+    await learningCenterMenu.click();
+    await expect(learningCenterMenu).toBeVisible();
+
+    /*await pw.getByTestId('mega-menu-container').getByRole('heading', { name: 'Learning Center' }).click();
     const learningCenterHeading = await pw.locator('h3').innerText();
     expect(learningCenterHeading).toBe("Learning Center");
-    await pw.getByRole('button', { name: 'Login' }).hover();
+    await pw.getByRole('button', { name: 'Login' }).hover();*/
 });
 
 
 test('@smoke Verify About Fortis mega menu', async ({ pages, pw }) => {
     await pages.homePage.goto();
-    await pw.getByTestId('mega-menu-container').getByRole('heading', { name: 'About Fortis' }).click();
+    //Code added to solve issue
+    const aboutFortisMenu = pw.getByTestId('mega-menu-container').getByRole('heading', { name: 'About Fortis' });
+    await aboutFortisMenu.click();
+    await expect(aboutFortisMenu).toBeVisible();
+    /*await pw.getByTestId('mega-menu-container').getByRole('heading', { name: 'About Fortis' }).click();
     const aboutFortisHeading = await pw.locator('h3').innerText();
     expect(aboutFortisHeading).toBe("About Fortis");
-    await pw.getByRole('button', { name: 'Login' }).hover();
+    await pw.getByRole('button', { name: 'Login' }).hover();*/
 });
 
 

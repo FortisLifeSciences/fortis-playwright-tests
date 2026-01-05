@@ -33,6 +33,9 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     headless: true,
+    viewport: { width: 1920, height: 1080 }, // force desktop
+    //isMobile: false,
+    //hasTouch: false,
     screenshot: 'only-on-failure',
     // trace: 'on-first-retry',
     trace: 'off',
@@ -51,9 +54,9 @@ export default defineConfig({
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
-        viewport: null,
+       // viewport: null,
         deviceScaleFactor: undefined,
-        headless: false,
+        headless: true,
         launchOptions: {
           args: ['--start-maximized']
         }
