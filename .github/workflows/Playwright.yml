@@ -31,12 +31,13 @@ jobs:
       - name: Run Playwright Tests
         env:
           BASE_URL: ${{ github.event.client_payload.base_url }}
+        id: pw
         run: npm run test
         continue-on-error: true
 
       - name: Generate Allure Report
         if: always()
-        run: npm run genreport
+        run: npm run allure:generate
 
       - name: Upload Allure Report
         if: always()
@@ -44,3 +45,7 @@ jobs:
         with:
           name: allure-report
           path: allure-report
+
+      - name: Fail job if tests failed
+        if: steps.pw.outcome == 'failure'
+        run: exit 1
