@@ -15,7 +15,10 @@
     "test:desktop": "npx playwright test --project=Desktop Chrome",
     "report": "npm run genreport && npm run reportserve",
     "genreport": "allure generate ./allure-results --clean -o ./allure-report",
-    "reportserve": "allure serve ./allure-results"
+    "reportserve": "allure serve ./allure-results",
+    "allure:generate": "allure generate ./allure-results --clean -o ./allure-report",
+    "allure:serve": "allure serve ./allure-results"
+
   },
   "keywords": [],
   "author": "",

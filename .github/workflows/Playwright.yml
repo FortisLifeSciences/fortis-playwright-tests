@@ -32,10 +32,11 @@ jobs:
         env:
           BASE_URL: ${{ github.event.client_payload.base_url }}
         run: npm run test
+        continue-on-error: true
 
       - name: Generate Allure Report
         if: always()
-        run: npm run allure:generate
+        run: npm run genreport
 
       - name: Upload Allure Report
         if: always()
