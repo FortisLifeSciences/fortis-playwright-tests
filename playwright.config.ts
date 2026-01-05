@@ -32,7 +32,7 @@ export default defineConfig({
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    headless: false,
+    headless: true,
     screenshot: 'only-on-failure',
     // trace: 'on-first-retry',
     trace: 'off',
