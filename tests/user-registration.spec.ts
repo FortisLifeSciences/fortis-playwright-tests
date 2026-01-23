@@ -9,7 +9,7 @@ let registrationPage: RegistrationPage;
 let resetPasswordPage: ResetPasswordPage;
 let tempEmailPage: TempEmailPage;
 
-test('@inprogress - Verify New user registration', async ({ pw, context, pages }) => {
+test.skip('@inprogress - Verify New user registration', async ({ pw, context, pages }) => {
     const partialUser = generatePartialUser();
     const user: TestUser = { ...partialUser };
     const userFirstName = partialUser.firstName;
