@@ -1,0 +1,15 @@
+Popup not present, continuing test...
+[INFO] 2026-01-23T11:12:54.528Z - Clicking on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-01-23T11:12:54.588Z - Filling 'Bethyl' into getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-01-23T11:12:54.628Z - Pressed Enter on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-01-23T11:12:55.436Z - Text "/Products for ".*"/" is present on the page.
+Popup not present, continuing test...
+[INFO] 2026-01-23T11:12:57.966Z - Clicking on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-01-23T11:12:58.027Z - Filling 'anti body' into getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-01-23T11:12:58.096Z - Pressed Enter on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-01-23T11:12:58.468Z - Text "/Products for ".*"/" is present on the page.
+Popup not present, continuing test...
+[INFO] 2026-01-23T11:13:00.694Z - Clicking on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-01-23T11:13:00.749Z - Filling 'anti body' into getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-01-23T11:13:00.810Z - Pressed Enter on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-01-23T11:13:01.182Z - Text "/Products for ".*"/" is present on the page.

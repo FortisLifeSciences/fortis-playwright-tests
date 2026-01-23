@@ -1,0 +1,34 @@
+Popup not present, continuing test...
+[INFO] 2026-01-23T11:11:29.776Z - Clicking on getByRole('button', { name: 'Login' })
+[INFO] 2026-01-23T11:11:29.883Z - Filling 'fn001fort@mailinator.com' into getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-01-23T11:11:29.920Z - Filling '!SimpleScience25' into getByRole('textbox', { name: 'Password' })
+[INFO] 2026-01-23T11:11:29.967Z - Clicking on getByRole('button', { name: 'Log In' })
+[INFO] 2026-01-23T11:11:30.090Z - Clicking on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-01-23T11:11:31.525Z - Filling 'anti body' into getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-01-23T11:11:31.565Z - Pressed Enter on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-01-23T11:11:32.884Z - Text "/Products for ".*"/" is present on the page.
+Catalog ID: IHC-00658
+[INFO] 2026-01-23T11:11:54.460Z - Text from locator('div[aria-label="Web Quantity"].MuiFormGroup-root[role="radiogroup"]>div:nth-of-type(1)>p:nth-of-type(1)'): IHC-00658
+[INFO] 2026-01-23T11:11:54.467Z - Text from locator('div[aria-label="Web Quantity"].MuiFormGroup-root[role="radiogroup"]>div:nth-of-type(1)>p:nth-of-type(2)'): $492.00
+[INFO] 2026-01-23T11:11:54.467Z - Clicking on getByRole('button', { name: 'Add to Cart' })
+[INFO] 2026-01-23T11:11:56.846Z - Text from locator('[data-testid="title-component"] h3'): Added to Cart
+This is dialog Added to Cart
+[INFO] 2026-01-23T11:11:56.849Z - Clicking on getByRole('button', { name: 'Go to Cart' })
+[INFO] 2026-01-23T11:11:58.942Z - Typing '1' into getByRole('textbox', { name: 'quantity' })
+[INFO] 2026-01-23T11:11:58.994Z - Pressed Tab on 1
+[INFO] 2026-01-23T11:11:59.001Z - Clicking on getByRole('button', { name: 'Checkout' })
+[INFO] 2026-01-23T11:11:59.071Z - Clicking on getByRole('button', { name: 'Continue' })
+[INFO] 2026-01-23T11:12:03.854Z - Clicking on getByRole('button', { name: 'Add New Card' })
+[INFO] 2026-01-23T11:12:06.251Z - Typing '4242424242424242' into getByRole('textbox', { name: 'Card Number' })
+[INFO] 2026-01-23T11:12:06.289Z - Typing '10/2035' into getByRole('textbox', { name: 'Expires (MM/YYYY)' })
+[INFO] 2026-01-23T11:12:06.346Z - Typing '111' into getByRole('textbox', { name: 'CVV Code' })
+shippingCheckBox >>>>>>>>>>>>>>> false
+[INFO] 2026-01-23T11:12:26.420Z - Checking checkbox getByRole('checkbox', { name: 'Use my shipping address' })
+[INFO] 2026-01-23T11:12:27.026Z - Text from locator('[data-testid="credit-card-view"] span'): Visa ending 4242 (expires 10/2035)
+Card Type: Visa, Last 4: 4242, Expiry: 10/2035
+[INFO] 2026-01-23T11:12:27.026Z - Clicking on getByRole('button', { name: 'Continue' })
+[INFO] 2026-01-23T11:12:29.964Z - Checking checkbox getByRole('checkbox', { name: 'termsConditions' })
+[INFO] 2026-01-23T11:12:30.054Z - Clicking on getByRole('button', { name: 'Place Order' })
+[INFO] 2026-01-23T11:12:32.028Z - Text from locator('//div[@data-testid=\'order-confirmation-new\']/div[2]/span[1]'): Order #550 was placed successfully. 
+Full confirmation text: Order #550 was placed successfully. 
+Extracted order number: 550

@@ -1,0 +1,4 @@
+Popup not present, continuing test...
+[INFO] 2026-01-23T11:13:14.869Z - Clicking on locator('.aa-SubmitButton')
+[INFO] 2026-01-23T11:13:14.921Z - Clicking on locator('#autocomplete')
+[INFO] 2026-01-23T11:13:17.816Z - Pressed Enter on page

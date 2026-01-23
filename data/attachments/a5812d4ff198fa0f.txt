@@ -1,0 +1,19 @@
+Popup not present, continuing test...
+[INFO] 2026-01-23T11:14:24.023Z - Clicking on Login Button
+[INFO] 2026-01-23T11:14:24.139Z - Clicking on Create Account Link
+[INFO] 2026-01-23T11:14:24.323Z - Clicking on First Name input
+[INFO] 2026-01-23T11:14:24.450Z - Pressed Tab on getByRole('textbox', { name: 'First Name' })
+[INFO] 2026-01-23T11:14:24.459Z - Typing 'John' into First Name input
+[INFO] 2026-01-23T11:14:24.569Z - Pressed Tab on getByRole('textbox', { name: 'First Name' })
+[INFO] 2026-01-23T11:14:24.574Z - Clicking on Last Name input
+[INFO] 2026-01-23T11:14:24.630Z - Pressed Tab on getByRole('textbox', { name: 'Last Name' })
+[INFO] 2026-01-23T11:14:24.633Z - Typing 'Doe' into Last Name input
+[INFO] 2026-01-23T11:14:24.697Z - Pressed Tab on getByRole('textbox', { name: 'Last Name' })
+[INFO] 2026-01-23T11:14:24.700Z - Clicking on Company, Institution or Organization input
+[INFO] 2026-01-23T11:14:24.759Z - Pressed Tab on getByRole('textbox', { name: 'Company, Institution or Organization' })
+[INFO] 2026-01-23T11:14:24.764Z - Typing 'Example Corp' into Company, Institution or Organization input
+[INFO] 2026-01-23T11:14:24.848Z - Pressed Tab on getByRole('textbox', { name: 'Company, Institution or Organization' })
+[INFO] 2026-01-23T11:14:24.853Z - Clicking on Email Address input
+[INFO] 2026-01-23T11:14:24.915Z - Pressed Tab on getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-01-23T11:14:24.918Z - Typing 'john.doe@example.com' into Email Address input
+[INFO] 2026-01-23T11:14:24.985Z - Pressed Tab on getByRole('textbox', { name: 'Email Address' })

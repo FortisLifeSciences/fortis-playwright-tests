@@ -1,0 +1,10 @@
+Popup not present, continuing test...
+[INFO] 2026-01-23T11:13:08.394Z - Clicking on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-01-23T11:13:08.439Z - Filling 'anti body' into getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-01-23T11:13:08.474Z - Pressed Enter on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-01-23T11:13:09.315Z - Text "/Products for ".*"/" is present on the page.
+Catalog ID: IHC-00658
+[INFO] 2026-01-23T11:13:10.401Z - Text from Product Details heading: Product Details
+Catalog ID: 100 µl (50+ slides)
+Catalog ID: IHC-00658
+Found catalogue ID "IHC-00658" under Web Quantity, I am on correct product page

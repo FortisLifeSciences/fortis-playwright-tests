@@ -1,0 +1,8 @@
+Popup not present, continuing test...
+[INFO] 2026-01-23T11:12:43.412Z - Clicking on getByRole('button', { name: 'Login' })
+[INFO] 2026-01-23T11:12:43.556Z - Filling 'fn001fort@mailinator.com' into getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-01-23T11:12:43.676Z - Filling '!SimpleScience25' into getByRole('textbox', { name: 'Password' })
+[INFO] 2026-01-23T11:12:43.824Z - Clicking on getByRole('button', { name: 'Log In' })
+[INFO] 2026-01-23T11:12:45.396Z - Hovered on getByRole('button', { name: 'Login' })
+[INFO] 2026-01-23T11:12:45.528Z - Clicking on getByRole('button', { name: 'Login' })
+[INFO] 2026-01-23T11:12:45.588Z - Clicking on Log Out

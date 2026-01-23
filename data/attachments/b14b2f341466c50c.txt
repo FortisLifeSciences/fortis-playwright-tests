@@ -1,0 +1,3 @@
+Popup not present, continuing test...
+[INFO] 2026-01-23T11:14:20.218Z - Clicking on Login Button
+[INFO] 2026-01-23T11:14:20.325Z - Clicking on getByRole('button', { name: 'clos' })

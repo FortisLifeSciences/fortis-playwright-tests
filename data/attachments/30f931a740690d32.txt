@@ -1,0 +1,16 @@
+Popup not present, continuing test...
+[INFO] 2026-01-23T11:14:16.286Z - Clicking on Login Button
+[INFO] 2026-01-23T11:14:16.388Z - Filling 'testemail' into getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-01-23T11:14:16.471Z - Pressed Tab on getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-01-23T11:14:16.476Z - Filling 'testemail@domain' into getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-01-23T11:14:16.573Z - Pressed Tab on getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-01-23T11:14:16.579Z - Filling 'testemail@domain.' into getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-01-23T11:14:16.653Z - Pressed Tab on getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-01-23T11:14:16.662Z - Filling 'testemaildomain.com' into getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-01-23T11:14:16.701Z - Pressed Tab on getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-01-23T11:14:16.705Z - Filling '@domain.com' into getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-01-23T11:14:16.735Z - Pressed Tab on getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-01-23T11:14:16.739Z - Filling 'testemail@.com' into getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-01-23T11:14:16.789Z - Pressed Tab on getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-01-23T11:14:16.792Z - Filling 'test.email@example.com' into getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-01-23T11:14:16.833Z - Pressed Tab on getByRole('textbox', { name: 'Email Address' })
