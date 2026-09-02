@@ -1,0 +1,10 @@
+Popup not present, continuing test...
+[INFO] 2026-09-02T06:32:31.780Z - Clicking on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-09-02T06:32:31.864Z - Filling 'anti body' into getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-09-02T06:32:31.956Z - Pressed Enter on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-09-02T06:32:32.937Z - Text "/Products for ".*"/" is present on the page.
+Catalog ID: A303-482A
+[INFO] 2026-09-02T06:32:33.700Z - Text from Product Details heading: Product Details
+Catalog ID: 100 µl (1000 µg/ml)
+Catalog ID: A303-482A
+Found catalogue ID "A303-482A" under Web Quantity, I am on correct product page

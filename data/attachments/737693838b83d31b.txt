@@ -1,0 +1,10 @@
+Popup not present, continuing test...
+[INFO] 2026-09-02T07:03:13.839Z - Clicking on Login Button
+[INFO] 2026-09-02T07:03:13.982Z - Clicking on getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-09-02T07:03:14.219Z - Pressed Tab on getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-09-02T07:03:14.235Z - Filling 'test@email.com' into getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-09-02T07:03:14.405Z - Pressed Tab on getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-09-02T07:03:14.410Z - Clicking on getByRole('textbox', { name: 'Password' })
+[INFO] 2026-09-02T07:03:14.531Z - Pressed Tab on getByRole('textbox', { name: 'Password' })
+[INFO] 2026-09-02T07:03:14.546Z - Filling 'Password@1' into getByRole('textbox', { name: 'Password' })
+[INFO] 2026-09-02T07:03:14.614Z - Pressed Tab on getByRole('textbox', { name: 'Password' })

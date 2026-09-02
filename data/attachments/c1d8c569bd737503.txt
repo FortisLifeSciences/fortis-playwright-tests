@@ -1,0 +1,6 @@
+Popup not present, continuing test...
+[INFO] 2026-09-02T06:32:07.618Z - Clicking on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-09-02T06:32:07.696Z - Filling 'Bethyl' into getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-09-02T06:32:07.781Z - Pressed Enter on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-09-02T06:32:08.745Z - Text "/Products for ".*"/" is present on the page.
+Locator value: locator('.productviewstructure .productviewlistItem')

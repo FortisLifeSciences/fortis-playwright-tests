@@ -1,0 +1,19 @@
+Popup not present, continuing test...
+[INFO] 2026-09-02T06:29:45.041Z - Clicking on getByRole('button', { name: 'Login' })
+[INFO] 2026-09-02T06:29:45.183Z - Filling 'fn001fort@mailinator.com' into getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-09-02T06:29:45.284Z - Filling '!SimpleScience25' into getByRole('textbox', { name: 'Password' })
+[INFO] 2026-09-02T06:29:45.395Z - Clicking on getByRole('button', { name: 'Log In' })
+[INFO] 2026-09-02T06:29:45.546Z - Clicking on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-09-02T06:29:45.970Z - Filling 'anti body' into getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-09-02T06:29:46.042Z - Pressed Enter on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-09-02T06:29:47.002Z - Text "/Products for ".*"/" is present on the page.
+Catalog ID: A303-482A
+[INFO] 2026-09-02T06:29:50.649Z - Text from locator('div[aria-label="Web Quantity"].MuiFormGroup-root[role="radiogroup"]>div:nth-of-type(1)>p:nth-of-type(1)'): A303-482A
+[INFO] 2026-09-02T06:29:50.657Z - Text from locator('div[aria-label="Web Quantity"].MuiFormGroup-root[role="radiogroup"]>div:nth-of-type(1)>p:nth-of-type(2)'): $464.00
+[INFO] 2026-09-02T06:29:50.657Z - Clicking on getByRole('button', { name: 'Add to Cart' })
+[INFO] 2026-09-02T06:29:52.073Z - Text from locator('[data-testid="title-component"] h3'): Added to Cart
+This is dialog Added to Cart
+[INFO] 2026-09-02T06:29:52.074Z - Clicking on getByRole('button', { name: 'Go to Cart' })
+[INFO] 2026-09-02T06:29:52.160Z - Typing '1' into getByRole('textbox', { name: 'quantity' })
+[INFO] 2026-09-02T06:29:52.221Z - Pressed Tab on 1
+[INFO] 2026-09-02T06:29:55.095Z - Clicking on getByRole('button', { name: 'Checkout' })

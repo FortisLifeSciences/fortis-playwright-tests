@@ -1,0 +1,5 @@
+Popup not present, continuing test...
+[INFO] 2026-09-02T06:31:42.486Z - Clicking on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-09-02T06:31:42.567Z - Filling 'Bethyl' into getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-09-02T06:31:42.652Z - Pressed Enter on getByRole('searchBox', { name: 'Submit' })
+[INFO] 2026-09-02T06:31:43.628Z - Text "/Products for ".*"/" is present on the page.

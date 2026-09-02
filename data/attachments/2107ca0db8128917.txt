@@ -1,0 +1,6 @@
+Popup not present, continuing test...
+[INFO] 2026-09-02T06:31:17.705Z - Clicking on getByRole('button', { name: 'Login' })
+[INFO] 2026-09-02T06:31:17.847Z - Filling 'invalid@email.com' into getByRole('textbox', { name: 'Email Address' })
+[INFO] 2026-09-02T06:31:17.937Z - Filling 'wrongpass' into getByRole('textbox', { name: 'Password' })
+[INFO] 2026-09-02T06:31:18.071Z - Clicking on getByRole('button', { name: 'Log In' })
+[INFO] 2026-09-02T06:31:18.483Z - Text from Login error message: You have entered an invalid username or password. If you forgot your password, please click “Forgot Password?” below to securely reset your password.

@@ -1,0 +1,593 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e8]:
+        - button "×" [ref=e9] [cursor=pointer]
+        - generic [ref=e10]:
+          - img "Buy Online. Save 50%!" [ref=e11]
+          - generic [ref=e12]:
+            - paragraph [ref=e13]: BUY ONLINE.
+            - paragraph [ref=e14]: SAVE
+            - paragraph [ref=e15]: 50%!
+        - generic [ref=e16]:
+          - heading "All Bethyl Catalog Antibodies — Limited Time Only" [level=3] [ref=e17]
+          - 'link "USE CODE: ANTIBODY50" [ref=e18] [cursor=pointer]':
+            - /url: /products/antibodies-antigens
+            - paragraph [ref=e20]: "USE CODE: ANTIBODY50"
+          - paragraph [ref=e21]:
+            - text: Online purchases only until June 30, 2026.
+            - text: Restrictions apply.
+      - banner [ref=e22]:
+        - navigation [ref=e25]:
+          - link "Fortis Life Sciences" [ref=e27] [cursor=pointer]:
+            - /url: /
+            - img "Fortis Life Sciences" [ref=e28]
+          - generic [ref=e29]:
+            - generic [ref=e31]:
+              - generic [ref=e32] [cursor=pointer]:
+                - paragraph [ref=e33]: Products
+                - img [ref=e34]
+              - generic [ref=e36] [cursor=pointer]:
+                - paragraph [ref=e37]: Services
+                - img [ref=e38]
+              - generic [ref=e40] [cursor=pointer]:
+                - paragraph [ref=e41]: Learning Center
+                - img [ref=e42]
+              - generic [ref=e44] [cursor=pointer]:
+                - paragraph [ref=e45]: About Fortis
+                - img [ref=e46]
+            - generic [ref=e49]:
+              - img
+              - combobox "Submit" [ref=e51]:
+                - search [ref=e52]:
+                  - searchbox "Submit" [ref=e54]
+            - generic [ref=e55]:
+              - generic [ref=e58] [cursor=pointer]:
+                - img [ref=e59]
+                - generic: "0"
+              - button "Login" [ref=e61] [cursor=pointer]:
+                - img [ref=e64]
+            - link "Contact" [ref=e66] [cursor=pointer]:
+              - /url: /contact-us
+    - generic [ref=e71]:
+      - generic [ref=e76]:
+        - img "Fluorescent antibody structures scattering across a dark background" [ref=e77]
+        - generic [ref=e79]:
+          - generic [ref=e80]: Special Pricing Until Sept 30th
+          - heading "SCALE WITH BETHYL®" [level=1] [ref=e81]:
+            - generic [ref=e82]: SCALE WITH
+            - generic [ref=e83]:
+              - text: BETHYL
+              - superscript [ref=e84]: ®
+          - list [ref=e85]:
+            - listitem [ref=e86]:
+              - text: • Farm-To-Bench
+              - superscript [ref=e87]: ™
+              - text: Production
+            - listitem [ref=e88]: • Gram-To-Kilogram Scale
+            - listitem [ref=e89]: • Lot-To-Lot Consistency
+          - paragraph [ref=e90]: Bulk Primaries • Secondaries • Antigens
+          - button "Request A Quote >" [ref=e91] [cursor=pointer]
+      - link "Bethyl Abcore Arista Biologicals Empirical Bioscience IPOC nanoComposix Vector Biolabs" [ref=e92] [cursor=pointer]:
+        - /url: /our-company
+        - generic [ref=e96]:
+          - img "Bethyl" [ref=e97]
+          - img "Abcore" [ref=e98]
+          - img "Arista Biologicals" [ref=e99]
+          - img "Empirical Bioscience" [ref=e100]
+          - img "IPOC" [ref=e101]
+          - img "nanoComposix" [ref=e102]
+          - img "Vector Biolabs" [ref=e103]
+      - generic [ref=e105]:
+        - heading "High-Demand Immunodetection Reagents" [level=6] [ref=e108]
+        - generic [ref=e112]:
+          - generic [ref=e114]:
+            - img "A Bethyl Laboratories assay kit showing a red product box, various reagent vials, an ELISA microplate, and a wash buffer pouch." [ref=e115]
+            - generic [ref=e116]:
+              - heading "ELISA Detection Kits" [level=3] [ref=e117]
+              - paragraph [ref=e118]: Secondary antibodies and immunoglobulin detection reagents used in quantitative ELISA.
+              - link "ELISA Kits >" [ref=e119] [cursor=pointer]:
+                - /url: /products/elisa-kits-and-accessories
+          - generic [ref=e121]:
+            - img "A clear lab vial labeled \"A80-102A Goat anti-Human IgA Heavy Chain Antibody\" by Bethyl, set against a blurred background of lab equipment." [ref=e122]
+            - generic [ref=e123]:
+              - heading "Secondary Antibodies" [level=3] [ref=e124]
+              - paragraph [ref=e125]: Secondary antibodies designed for sensitive protein detection and signal amplification.
+              - link "Secondary Antibodies >" [ref=e126] [cursor=pointer]:
+                - /url: /products/secondary-antibodies
+          - generic [ref=e128]:
+            - img "A Bethyl vial labeled A700-021 Rabbit anti-Ki-67 Monoclonal Antibody, set against a blurred purple histology background." [ref=e129]
+            - generic [ref=e130]:
+              - heading "Immunohistochemistry Reagents" [level=3] [ref=e131]
+              - paragraph [ref=e132]: Antibodies used in tissue-based immunodetection and pathology workflows.
+              - link "IHC Antibodies >" [ref=e133] [cursor=pointer]:
+                - /url: /products/spatial-biology-antibodies
+          - generic [ref=e135]:
+            - img "A Bethyl vial labeled A80-115A Goat anti-Human Kappa Light Chain Antibody, floating above rapid test cassettes on purple." [ref=e136]
+            - generic [ref=e137]:
+              - heading "Clinical Immunology Reagents" [level=3] [ref=e138]
+              - paragraph [ref=e139]: Antibodies targeting immunoglobulins, isotypes, and related epitopes for research and clinical immunology.
+              - link "Antibodies For Diagnostics >" [ref=e140] [cursor=pointer]:
+                - /url: /clinical-diagnostics-antibodies
+      - generic [ref=e142]:
+        - heading "Explore" [level=6] [ref=e145]
+        - generic [ref=e148]:
+          - generic [ref=e149]:
+            - generic [ref=e150] [cursor=pointer]: Product Categories
+            - generic [ref=e151] [cursor=pointer]: Services Categories
+          - generic [ref=e153]:
+            - link "3D icon representing antibodies and antigens products Antibodies & Antigens" [ref=e154] [cursor=pointer]:
+              - /url: /products/antibodies-antigens
+              - img "3D icon representing antibodies and antigens products"
+              - paragraph [ref=e155]: Antibodies & Antigens
+            - link "3D icon representing assays and kits products Assays & Kits" [ref=e156] [cursor=pointer]:
+              - /url: /assays-and-kits
+              - img "3D icon representing assays and kits products"
+              - paragraph [ref=e157]: Assays & Kits
+            - link "3D icon representing bulk and OEM products Bulk & OEM" [ref=e158] [cursor=pointer]:
+              - /url: /bulk-custom-oem
+              - img "3D icon representing bulk and OEM products"
+              - paragraph [ref=e159]: Bulk & OEM
+            - link "3D icon representing diagnostic components products Diagnostic Components" [ref=e160] [cursor=pointer]:
+              - /url: /diagnostics-components
+              - img "3D icon representing diagnostic components products"
+              - paragraph [ref=e161]: Diagnostic Components
+            - link "3D icon representing enzymes and master mixes products Enzymes & Master Mixes" [ref=e162] [cursor=pointer]:
+              - /url: /products/enzymes-master-mixes
+              - img "3D icon representing enzymes and master mixes products"
+              - paragraph [ref=e163]: Enzymes & Master Mixes
+            - link "3D icon representing lateral flow reagents products Lateral Flow Reagents" [ref=e164] [cursor=pointer]:
+              - /url: /products/lfa-antibodies-antigens
+              - img "3D icon representing lateral flow reagents products"
+              - paragraph [ref=e165]: Lateral Flow Reagents
+            - link "3D icon representing nanoparticles products Nanoparticles" [ref=e166] [cursor=pointer]:
+              - /url: /nanoparticles
+              - img "3D icon representing nanoparticles products"
+              - paragraph [ref=e167]: Nanoparticles
+            - link "3D icon representing VHH libraries products VHH Libraries" [ref=e168] [cursor=pointer]:
+              - /url: /products/abnano-vhh-naive-library
+              - img "3D icon representing VHH libraries products"
+              - paragraph [ref=e169]: VHH Libraries
+            - link "3D icon representing viral vectors products Viral Vectors" [ref=e170] [cursor=pointer]:
+              - /url: /viral-vectors
+              - img "3D icon representing viral vectors products"
+              - paragraph [ref=e171]: Viral Vectors
+        - link "Check Specials >" [ref=e174] [cursor=pointer]:
+          - /url: /all-promotions
+      - generic [ref=e176]:
+        - heading "Capabilities To Advance Your Programs" [level=6] [ref=e179]
+        - generic [ref=e183]:
+          - link "Don’t Gamble On Antibodies promotional banner image Don’t Gamble On Antibodies ❯" [ref=e184] [cursor=pointer]:
+            - /url: /validated-antibodies-academic-research
+            - img "Don’t Gamble On Antibodies promotional banner image"
+            - generic [ref=e185]:
+              - paragraph [ref=e186]: Don’t Gamble On Antibodies
+              - generic [ref=e187]: ❯
+          - link "Accelerate antibody programs promotional banner image Accelerate Antibody Programs With Farm To Bench Control ❯" [ref=e188] [cursor=pointer]:
+            - /url: /stronger-starts-for-discovery-programs
+            - img "Accelerate antibody programs promotional banner image"
+            - generic [ref=e189]:
+              - paragraph [ref=e190]: Accelerate Antibody Programs With Farm To Bench Control
+              - generic [ref=e191]: ❯
+          - link "Rapid test development promotional banner image Your Rapid Test Development Challenges, Solved ❯" [ref=e192] [cursor=pointer]:
+            - /url: /products/lfa-antibodies-antigens
+            - img "Rapid test development promotional banner image"
+            - generic [ref=e193]:
+              - paragraph [ref=e194]: Your Rapid Test Development Challenges, Solved
+              - generic [ref=e195]: ❯
+          - link "Spatial biology multiplex imaging services promotional banner image Spatial Biology Without The CAPEX, Complexity Or Delays ❯" [ref=e196] [cursor=pointer]:
+            - /url: /spatial-biology-multiplex-imaging-services
+            - img "Spatial biology multiplex imaging services promotional banner image"
+            - generic [ref=e197]:
+              - paragraph [ref=e198]: Spatial Biology Without The CAPEX, Complexity Or Delays
+              - generic [ref=e199]: ❯
+          - link "Precision lyophilization promotional banner image Precision Lyophilization For Stable, Scalable Molecular Assays ❯" [ref=e200] [cursor=pointer]:
+            - /url: /resources/diagnostic-resources/key-to-lyophilized-products-consistent-performance
+            - img "Precision lyophilization promotional banner image"
+            - generic [ref=e201]:
+              - paragraph [ref=e202]: Precision Lyophilization For Stable, Scalable Molecular Assays
+              - generic [ref=e203]: ❯
+          - link "Gene delivery and viral vectors promotional banner image Reduce Risk In Gene Delivery Programs ❯" [ref=e204] [cursor=pointer]:
+            - /url: /viral-vectors
+            - img "Gene delivery and viral vectors promotional banner image"
+            - generic [ref=e205]:
+              - paragraph [ref=e206]: Reduce Risk In Gene Delivery Programs
+              - generic [ref=e207]: ❯
+      - generic [ref=e216]:
+        - heading "Specials & Promotions" [level=2] [ref=e217]
+        - generic [ref=e218]:
+          - link "New lab start up program icon New Lab Start Up Program Apply ›" [ref=e219] [cursor=pointer]:
+            - /url: /new-lab-start-up-program
+            - generic [ref=e220]:
+              - img "New lab start up program icon" [ref=e221]
+              - generic [ref=e222]:
+                - heading "New Lab Start Up Program" [level=3] [ref=e223]:
+                  - text: New Lab Start Up
+                  - text: Program
+                - generic [ref=e224]: Apply ›
+          - link "Discounts and promotions icon Discounts & Promotions Save ›" [ref=e225] [cursor=pointer]:
+            - /url: /all-promotions
+            - generic [ref=e226]:
+              - img "Discounts and promotions icon" [ref=e227]
+              - generic [ref=e228]:
+                - heading "Discounts & Promotions" [level=3] [ref=e229]:
+                  - text: Discounts &
+                  - text: Promotions
+                - generic [ref=e230]: Save ›
+      - generic [ref=e232]:
+        - heading "Featured Products & Services" [level=6] [ref=e235]
+        - generic [ref=e237]:
+          - generic [ref=e240]:
+            - img "Bethyl Recombinant Monoclonal Antibodies Banner Image" [ref=e242]
+            - heading "NEW! AbNano® VHH Anti-NK-Cell Library" [level=3] [ref=e245]
+            - paragraph [ref=e248]: AbNano® introduces a first-in-class peripheral NK cell-derived VHH library designed to help researchers identify differentiated binders for challenging NK-associated targets. Built for NK target discovery, CAR- NK research, and advanced screening workflows, with optional discovery services to accelerate progression from hit to lead.
+            - link "Advance Your NK Program >" [ref=e251] [cursor=pointer]:
+              - /url: products/anti-nk-cell-vhh-library
+          - generic [ref=e253]:
+            - generic [ref=e254]:
+              - link "Bethyl Recombinant Monoclonal Antibodies" [ref=e255] [cursor=pointer]:
+                - /url: /products/secondary-antibodies
+                - img "Bethyl Recombinant Monoclonal Antibodies" [ref=e256]
+              - generic [ref=e258]:
+                - link "Bethyl Secondary Antibodies" [ref=e259] [cursor=pointer]:
+                  - /url: /products/secondary-antibodies
+                  - heading "Bethyl Secondary Antibodies" [level=3] [ref=e261]:
+                    - text: Bethyl Secondary
+                    - text: Antibodies
+                - link "See All Secondary Antibodies >" [ref=e262] [cursor=pointer]:
+                  - /url: /products/secondary-antibodies
+                  - paragraph [ref=e264]: See All Secondary Antibodies >
+            - generic [ref=e265]:
+              - link "Arista Biologicals West Nile VIRUS" [ref=e266] [cursor=pointer]:
+                - /url: /lfa-infectious-disease
+                - img "Arista Biologicals West Nile VIRUS" [ref=e267]
+              - generic [ref=e269]:
+                - link "Arista Biologicals West Nile VIRUS - LFA" [ref=e270] [cursor=pointer]:
+                  - /url: /lfa-infectious-disease
+                  - heading "Arista Biologicals West Nile VIRUS - LFA" [level=3] [ref=e272]
+                - link "See more >" [ref=e273] [cursor=pointer]:
+                  - /url: /lfa-infectious-disease
+                  - paragraph [ref=e275]: See more >
+            - generic [ref=e276]:
+              - link "Llama banner" [ref=e277] [cursor=pointer]:
+                - /url: /all-services
+                - img "Llama banner" [ref=e278]
+              - generic [ref=e280]:
+                - link "Custom Antibody Services" [ref=e281] [cursor=pointer]:
+                  - /url: /all-services
+                  - heading "Custom Antibody Services" [level=3] [ref=e283]:
+                    - text: Custom Antibody
+                    - text: Services
+                - link "See Our Custom Services >" [ref=e284] [cursor=pointer]:
+                  - /url: /all-services
+                  - paragraph [ref=e286]: See Our Custom Services >
+      - generic [ref=e288]:
+        - heading "Popular Resources" [level=6] [ref=e291]
+        - generic [ref=e295]:
+          - link "document with data icon Ensuring Antibody Specificity and Reproducibility Read the White Paper >" [ref=e298] [cursor=pointer]:
+            - /url: /resources/antibody-resources/ensuring-antibody-specificity-and-reproducibility-the-six-pillars-of-antibody-validation
+            - generic [ref=e299]:
+              - img "document with data icon" [ref=e301]
+              - heading "Ensuring Antibody Specificity and Reproducibility" [level=4] [ref=e304]
+              - generic [ref=e306]: Read the White Paper >
+          - link "Paper and paperclip icon Flow Cytometry eBook Download the eBook >" [ref=e309] [cursor=pointer]:
+            - /url: /resources/antibody-resources/flow-cytometry-principles-best-practices-and-considerations-for-experimental-design
+            - generic [ref=e310]:
+              - img "Paper and paperclip icon" [ref=e312]
+              - heading "Flow Cytometry eBook" [level=4] [ref=e315]
+              - generic [ref=e317]: Download the eBook >
+          - link "Paper and paperclip icon AbNano VHH Anti-NK Cell Library Data Pack See the Data >" [ref=e320] [cursor=pointer]:
+            - /url: /resources/antibody-resources/abnano-vhh-anti-nk-cell-library-data-pack
+            - generic [ref=e321]:
+              - img "Paper and paperclip icon" [ref=e323]
+              - heading "AbNano VHH Anti-NK Cell Library Data Pack" [level=4] [ref=e326]
+              - generic [ref=e328]: See the Data >
+          - link "Paper and paperclip icon Animal Health Download the Brochure >" [ref=e331] [cursor=pointer]:
+            - /url: /resources/antibody-resources/veterinary-science-animal-health-brochure
+            - generic [ref=e332]:
+              - img "Paper and paperclip icon" [ref=e334]
+              - heading "Animal Health" [level=4] [ref=e337]
+              - generic [ref=e339]: Download the Brochure >
+          - link "Paper and paperclip icon Drugs of Abuse Pairing Guide Download the Guide >" [ref=e342] [cursor=pointer]:
+            - /url: /resources/antibody-resources/drugs-of-abuse-pairing-guide
+            - generic [ref=e343]:
+              - img "Paper and paperclip icon" [ref=e345]
+              - heading "Drugs of Abuse Pairing Guide" [level=4] [ref=e348]
+              - generic [ref=e350]: Download the Guide >
+      - generic [ref=e352]:
+        - generic [ref=e354]:
+          - heading "News & Events" [level=6] [ref=e357]
+          - link "See All Fortis News >" [ref=e358] [cursor=pointer]:
+            - /url: /news
+            - paragraph [ref=e360]: See All Fortis News >
+        - generic [ref=e362]:
+          - link "PEGS Boston Logo Fortis Life Sciences Expands AbNano® Portfolio with First Peripheral Natural Cell-Derived VHH Library First peripheral natural killer cell-derived single-domain antibody VHH library. Next arrow button" [ref=e363] [cursor=pointer]:
+            - /url: /anti-nk-cell-press-release
+            - img "PEGS Boston Logo" [ref=e365]
+            - generic [ref=e367]:
+              - heading "Fortis Life Sciences Expands AbNano® Portfolio with First Peripheral Natural Cell-Derived VHH Library" [level=3] [ref=e370]:
+                - text: Fortis Life Sciences Expands AbNano® Portfolio with
+                - text: First Peripheral Natural Cell-Derived VHH Library
+              - heading "First peripheral natural killer cell-derived single-domain antibody VHH library." [level=3] [ref=e373]
+            - img "Next arrow button" [ref=e375]
+          - link "Deliver Biosciences, winner of Fortis Life Sciences's grant series Fortis Life Sciences Names Deliver Biosciences The Winner Of the Fortis Grant Series, featuring AbNano VHH Discovery Services Next arrow button" [ref=e376] [cursor=pointer]:
+            - /url: /news
+            - img "Deliver Biosciences, winner of Fortis Life Sciences's grant series" [ref=e378]
+            - generic [ref=e380]:
+              - heading "Fortis Life Sciences Names Deliver Biosciences The Winner" [level=3] [ref=e383]
+              - heading "Of the Fortis Grant Series, featuring AbNano VHH Discovery Services" [level=3] [ref=e386]
+            - img "Next arrow button" [ref=e388]
+      - generic [ref=e393]:
+        - img "Fortis Life Sciences decorative arrow"
+        - generic [ref=e395]:
+          - heading "One Force Forward" [level=2] [ref=e396]
+          - paragraph [ref=e397]: Scientific progress depends on the reagents, technologies, and expertise behind every experiment. Fortis Life Sciences brings together specialized companies spanning antibodies, diagnostic components, molecular biology reagents, engineered nanoparticles, and viral vector platforms. Together they form One Fortis.
+          - link "About Us ›" [ref=e398] [cursor=pointer]:
+            - /url: /our-company
+      - generic [ref=e400]:
+        - heading "Where Science Finds Momentum" [level=6] [ref=e403]
+        - generic [ref=e405]:
+          - paragraph [ref=e416]: North American manufacturing and R&D locations, with three ISO 13485 certified and GMP compliant sites.
+          - generic [ref=e422]:
+            - generic [ref=e426]: 0+
+            - paragraph [ref=e429]: Biopharma, diagnostics, research, and applied technology customers globally
+          - generic [ref=e435]:
+            - generic [ref=e439]: 0+
+            - paragraph [ref=e442]: Academic and peer-reviewed citations
+      - generic [ref=e452]:
+        - generic [ref=e453] [cursor=pointer]:
+          - heading "STEM CELL BIOLOGY" [level=3] [ref=e455]:
+            - link "STEM CELL BIOLOGY" [ref=e456]:
+              - /url: /products/focus-on-stem-cell-biology
+          - generic [ref=e457]:
+            - generic [ref=e458]:
+              - paragraph [ref=e459]: Explore how stem cells self-renew and differentiate into specialized cell types, supporting tissue regeneration, development, and the maintenance of healthy biological systems.
+              - link "Read more >" [ref=e460]:
+                - /url: /products/focus-on-stem-cell-biology
+            - img "3D render of clustered spherical cells illustrating stem cell aggregation and self-renewal in tissue regeneration" [ref=e462]
+        - generic [ref=e463] [cursor=pointer]:
+          - heading "IMMUNO-ONCOLOGY & IMMUNOTHERAPY" [level=3] [ref=e465]:
+            - link "IMMUNO-ONCOLOGY & IMMUNOTHERAPY" [ref=e466]:
+              - /url: /products/focus-on-immuno-oncology
+              - text: IMMUNO-ONCOLOGY &
+              - text: IMMUNOTHERAPY
+          - generic [ref=e467]:
+            - generic [ref=e468]:
+              - paragraph [ref=e469]: Learn how the immune system detects and eliminates cancer cells using antibodies, immune checkpoints, and engineered immunotherapies.
+              - link "Read more >" [ref=e470]:
+                - /url: /products/focus-on-immuno-oncology
+            - img "3D render of an antibody binding to a tumor cell cluster, depicting targeted immunotherapy in immuno-oncology." [ref=e472]
+        - generic [ref=e473] [cursor=pointer]:
+          - heading "AUTOPHAGY" [level=3] [ref=e475]:
+            - link "AUTOPHAGY" [ref=e476]:
+              - /url: /products/focus-on-autophagy
+          - generic [ref=e477]:
+            - generic [ref=e478]:
+              - paragraph [ref=e479]: See how cells recycle damaged proteins and organelles through autophagy, a critical process that maintains cellular balance and supports survival under stress conditions.
+              - link "Read more >" [ref=e480]:
+                - /url: /products/focus-on-autophagy
+            - img "3D cross-section of a cell revealing intracellular vesicles and organelles undergoing autophagic degradation." [ref=e482]
+        - generic [ref=e483] [cursor=pointer]:
+          - heading "NANOMATERIALS" [level=3] [ref=e485]:
+            - link "NANOMATERIALS" [ref=e486]:
+              - /url: /focus-on-nanomaterials
+          - generic [ref=e487]:
+            - generic [ref=e488]:
+              - paragraph [ref=e489]: Discover how nanoscale materials interact with biological systems to enable targeted drug delivery, advanced diagnostics, and innovative therapeutic technologies.
+              - link "Read more >" [ref=e490]:
+                - /url: /focus-on-nanomaterials
+            - img "3D render of a hollow geodesic nanostructure illustrating nanomaterial scaffolding for targeted drug delivery." [ref=e492]
+        - generic [ref=e493] [cursor=pointer]:
+          - heading "METASTASIS" [level=3] [ref=e495]:
+            - link "METASTASIS" [ref=e496]:
+              - /url: /products/focus-on-metastasis
+          - generic [ref=e497]:
+            - generic [ref=e498]:
+              - paragraph [ref=e499]: Explore how tumor cells spread from a primary site to distant organs, the barriers circulating tumor cells face in establishing metastases, and why metastatic disease is associated with poor prognosis.
+              - link "Read more >" [ref=e500]:
+                - /url: /products/focus-on-metastasis
+            - img "3D render of a tumor cell mass with projecting extensions, illustrating invasive metastatic dissemination." [ref=e502]
+        - generic [ref=e503] [cursor=pointer]:
+          - heading "THE CELL CYCLE" [level=3] [ref=e505]:
+            - link "THE CELL CYCLE" [ref=e506]:
+              - /url: /products/focus-on-the-cell-cycle
+          - generic [ref=e507]:
+            - generic [ref=e508]:
+              - paragraph [ref=e509]: Learn how the cell cycle phases (G1, S, G2, M), checkpoints, and regulators such as cyclins and cyclin-dependent kinases control cell proliferation and maintain genomic integrity.
+              - link "Read more >" [ref=e510]:
+                - /url: /products/focus-on-the-cell-cycle
+            - img "3D render of a four-cell embryo illustrating early-stage cleavage and cell division in developmental biology." [ref=e512]
+      - generic [ref=e516]:
+        - generic [ref=e518]:
+          - heading "One Fortis. Global Reach." [level=4] [ref=e523]:
+            - text: One Fortis.
+            - text: Global Reach.
+          - generic [ref=e525]:
+            - generic [ref=e527]:
+              - paragraph [ref=e528]: Fortis integrates specialized expertise across one Farm-to-Bench™ system to support the discoveries that define what comes next in science.
+              - paragraph [ref=e529]: To find a representative or distributor in your area click on the region and scroll through the list.
+            - button "See All Distributors >" [ref=e530] [cursor=pointer]
+        - generic [ref=e533]:
+          - generic [ref=e534]:
+            - generic [ref=e535] [cursor=pointer]:
+              - heading "North America" [level=2] [ref=e536]
+              - img [ref=e538]
+            - generic [ref=e540]:
+              - generic [ref=e541]:
+                - generic [ref=e542]: 📍
+                - generic [ref=e543]: 26 Active Locations
+              - generic [ref=e544]:
+                - generic [ref=e545]: USA
+                - generic [ref=e546]:
+                  - generic [ref=e547]:
+                    - generic [ref=e548] [cursor=pointer]: Chadd Foster
+                    - generic [ref=e549]: Antibodies - East
+                  - generic [ref=e550]:
+                    - generic [ref=e551] [cursor=pointer]: Oliver Lekressner
+                    - generic [ref=e552]: Antibodies - WEST
+                  - generic [ref=e553]:
+                    - generic [ref=e554] [cursor=pointer]: Jessica James
+                    - generic [ref=e555]: Antibodies - Inside Sales
+                  - generic [ref=e556]:
+                    - generic [ref=e557] [cursor=pointer]: Sam Sugerman
+                    - generic [ref=e558]: Abcore
+                  - generic [ref=e559]:
+                    - generic [ref=e560] [cursor=pointer]: Pino Iannetti
+                    - generic [ref=e561]: Diagnostics
+                  - generic [ref=e562]:
+                    - generic [ref=e563] [cursor=pointer]: Kimberly Harstein
+                    - generic [ref=e564]: nanoComposix
+                  - generic [ref=e565]:
+                    - generic [ref=e566] [cursor=pointer]: Cayley Hoyer
+                    - generic [ref=e567]: Vector Biolabs
+                - generic [ref=e568]: Canada
+                - generic [ref=e571] [cursor=pointer]: Cedarlane Laboratories
+                - generic [ref=e572]: Mexico
+                - generic [ref=e575] [cursor=pointer]: CTR Scientific
+                - generic [ref=e576]: Puerto Rico
+                - generic [ref=e579] [cursor=pointer]: Immuno American
+                - generic [ref=e580]: Costa Rica
+                - generic [ref=e583] [cursor=pointer]: Immuno American
+          - img [ref=e585] [cursor=pointer]
+      - generic [ref=e587]:
+        - generic [ref=e589]: Talk To An Expert
+        - button "Go Forward >" [ref=e592] [cursor=pointer]
+    - contentinfo [ref=e593]:
+      - generic [ref=e600]:
+        - link [ref=e601] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e603]:
+          - generic [ref=e606]:
+            - paragraph [ref=e609]:
+              - text: info@fortislife.com
+              - link "1.800.338.9579" [ref=e610] [cursor=pointer]:
+                - /url: tel:8003389579
+            - paragraph [ref=e613]:
+              - text: 7 Whitter Place
+              - text: Suite 108 PMB 173
+              - text: Boston, MA 02114
+            - link "LinkedIn logo" [ref=e614] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/fortis-life-sci/
+              - img "LinkedIn logo" [ref=e615]
+            - paragraph [ref=e618]: Get the latest Fortis news & promotions
+            - form "HubSpot Form" [ref=e627]:
+              - generic [ref=e629]:
+                - generic:
+                  - generic:
+                    - generic [ref=e631]:
+                      - strong [ref=e633]: "Email:"
+                      - text: "*"
+                    - textbox "Email:*" [ref=e634]:
+                      - /placeholder: Work Email
+                - button "Submit ›" [ref=e635] [cursor=pointer]
+          - generic [ref=e639]:
+            - generic [ref=e644]:
+              - link "About Fortis" [ref=e646] [cursor=pointer]:
+                - /url: /our-company
+              - list [ref=e647]:
+                - listitem [ref=e648]:
+                  - link "Latest News & Developments" [ref=e649] [cursor=pointer]:
+                    - /url: /news
+                - listitem [ref=e650]:
+                  - link "The Fortis Difference" [ref=e651] [cursor=pointer]:
+                    - /url: /fortis-difference
+                - listitem [ref=e652]:
+                  - link "Quality Standards" [ref=e653] [cursor=pointer]:
+                    - /url: /quality-standards
+                - listitem [ref=e654]:
+                  - link "Distributors" [ref=e655] [cursor=pointer]:
+                    - /url: /distributors
+                - listitem [ref=e656]:
+                  - link "Careers" [ref=e657] [cursor=pointer]:
+                    - /url: /careers
+                - listitem [ref=e658]:
+                  - link "Events" [ref=e659] [cursor=pointer]:
+                    - /url: /events
+                - listitem [ref=e660]:
+                  - link "Finance & Accounting" [ref=e661] [cursor=pointer]:
+                    - /url: /finance-accounting
+                - listitem [ref=e662]:
+                  - link "Contact Us" [ref=e663] [cursor=pointer]:
+                    - /url: /contact-us
+            - generic [ref=e668]:
+              - generic [ref=e669] [cursor=pointer]: Products
+              - list [ref=e670]:
+                - listitem [ref=e671]:
+                  - link "Antibodies & Antigens" [ref=e672] [cursor=pointer]:
+                    - /url: /products/antibodies-antigens
+                - listitem [ref=e673]:
+                  - link "Assays & Kits" [ref=e674] [cursor=pointer]:
+                    - /url: /assays-and-kits
+                - listitem [ref=e675]:
+                  - link "Bulk & OEM" [ref=e676] [cursor=pointer]:
+                    - /url: /bulk-custom-oem
+                - listitem [ref=e677]:
+                  - link "Diagnostics Components" [ref=e678] [cursor=pointer]:
+                    - /url: /diagnostics-components
+                - listitem [ref=e679]:
+                  - link "Enzymes & Master Mixes" [ref=e680] [cursor=pointer]:
+                    - /url: /products/enzymes-master-mixes
+                - listitem [ref=e681]:
+                  - link "Lateral Flow Reagents" [ref=e682] [cursor=pointer]:
+                    - /url: /products/lfa-antibodies-antigens
+                - listitem [ref=e683]:
+                  - link "Nanoparticles" [ref=e684] [cursor=pointer]:
+                    - /url: /nanoparticles
+                - listitem [ref=e685]:
+                  - link "VHH Libraries" [ref=e686] [cursor=pointer]:
+                    - /url: /products/libraries
+                - listitem [ref=e687]:
+                  - link "Viral Vectors" [ref=e688] [cursor=pointer]:
+                    - /url: /viral-vectors
+            - generic [ref=e690]:
+              - generic [ref=e693]:
+                - generic [ref=e694] [cursor=pointer]: Services
+                - list [ref=e695]:
+                  - listitem [ref=e696]:
+                    - link "Antibody Services" [ref=e697] [cursor=pointer]:
+                      - /url: /antibody-development-manufacturing
+                  - listitem [ref=e698]:
+                    - link "Diagnostics Services" [ref=e699] [cursor=pointer]:
+                      - /url: /diagnostic-cdmo-manufacturing-services
+                  - listitem [ref=e700]:
+                    - link "Viral Vector Services" [ref=e701] [cursor=pointer]:
+                      - /url: https://www.vectorbiolabs.com/product-and-services/aav-custom-production/
+              - generic [ref=e704]:
+                - generic [ref=e705] [cursor=pointer]: Learning Center
+                - list [ref=e706]:
+                  - listitem [ref=e707]:
+                    - link "Applications" [ref=e708] [cursor=pointer]:
+                      - /url: /applications
+                  - listitem [ref=e709]:
+                    - link "Resources" [ref=e710] [cursor=pointer]:
+                      - /url: /resources
+                  - listitem [ref=e711]:
+                    - link "Fortis In Focus" [ref=e712] [cursor=pointer]:
+                      - /url: /fortis-in-focus
+                  - listitem [ref=e713]:
+                    - link "Protocols" [ref=e714] [cursor=pointer]:
+                      - /url: /products/protocols
+        - generic [ref=e716]:
+          - list [ref=e721]:
+            - listitem [ref=e722] [cursor=pointer]:
+              - link "Privacy Policy" [ref=e723]:
+                - /url: /privacy-policy
+            - listitem [ref=e724] [cursor=pointer]:
+              - link "Site Use Terms" [ref=e725]:
+                - /url: /site-use-terms
+            - listitem [ref=e726] [cursor=pointer]:
+              - link "Sales Terms and Conditions" [ref=e727]:
+                - /url: /sales-terms
+            - listitem [ref=e728] [cursor=pointer]: References
+          - paragraph [ref=e733]: Copyright © 2026 Fortis Life Sciences, LLC. All Rights Reserved.
+  - alert [ref=e734]
+  - iframe [ref=e737]:
+    - generic [ref=f1e6]:
+      - text: protected by
+      - strong [ref=f1e7]: reCAPTCHA
+  - iframe [ref=e739]:
+    
+```
